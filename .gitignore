@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- Ambiente virtual ----
+.venv/
+venv/
+env/
+.env
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Sistema operacional ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Dados pesados ----
+# Regra: arquivos acima de ~50 MB nao vao para o Git.
+# Se a base bruta ultrapassar esse limite, remova o comentario da linha abaixo
+# e documente em dados_brutos/README.md como baixa-la.
+# dados_brutos/*.csv
+dados_brutos/*.zip
+dados_tratados/*.parquet
+
+# ---- Saidas grandes / temporarias ----
+logs/*.log
+resultados/modelos/*.pkl
+resultados/modelos/*.joblib
+
+# ---- Credenciais (NUNCA versionar) ----
+kaggle.json
+*.pem
+*.key
+credenciais*

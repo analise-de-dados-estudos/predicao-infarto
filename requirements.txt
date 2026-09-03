@@ -1,0 +1,27 @@
+# Ambiente do projeto — Predicao de Risco de Infarto
+# Instalacao:  pip install -r requirements.txt
+# Congelar o ambiente real depois:  pip freeze > requirements.txt
+
+# --- Manipulacao de dados ---
+pandas
+numpy
+
+# --- Visualizacao ---
+matplotlib
+seaborn
+
+# --- Machine Learning ---
+scikit-learn
+imbalanced-learn        # SMOTE e outras tecnicas de balanceamento
+xgboost                 # opcional: modelo de gradient boosting
+shap                    # opcional: interpretabilidade do modelo
+
+# --- Ambiente de trabalho ---
+jupyter
+notebook
+ipykernel
+
+# --- Utilitarios ---
+kaggle                  # download da base via linha de comando
+openpyxl                # exportacao para .xlsx
+joblib                  # serializacao de modelos
